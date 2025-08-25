@@ -34,3 +34,12 @@ body {
     height: 5%;
     background-color: rgb(199, 163, 163);
 }
+
+/*GRID STYLING*/
+
+.grid-box {
+    background-color: grey;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
