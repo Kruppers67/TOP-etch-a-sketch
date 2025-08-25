@@ -3,27 +3,35 @@ body {
     text-align: center;
     height: 100vh;
     width: 100vw;
-    background-color: azure;
+    background-color: rgb(75, 90, 90);
     overflow: hidden;
+    margin: 0;
 }
 #header-box {
     display: block;
     margin: auto;
-    width: 100px;
-    height: 100px;
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
     background-color: green;
+    border-bottom: black 3px solid;
+    box-sizing: border-box;
 }
 #background-box {
     display: block;
     margin: auto;
-    width: 100px;
-    height: 100px;
+    box-sizing: border-box;
+    background-color: green;
+    border-bottom: black 3px solid;
+    width: 100%;
+    height: 580px;
     background-color: blue;
 }
 #footer-box {
     display: block;
+    box-sizing: border-box;
     margin: auto;
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 50px;
     background-color: red;
 }
