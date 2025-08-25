@@ -1,0 +1,29 @@
+body {
+    display: inline-block;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: azure;
+    overflow: hidden;
+}
+#header-box {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+#background-box {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+#footer-box {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
