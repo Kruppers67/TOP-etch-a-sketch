@@ -10,10 +10,10 @@ body {
 #header-box {
     display: block;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 15px;
     width: 100%;
-    height: 50px;
-    background-color: green;
+    height: 5%;
+    background-color: rgb(147, 191, 147);
     border-bottom: black 3px solid;
     box-sizing: border-box;
 }
@@ -21,17 +21,16 @@ body {
     display: block;
     margin: auto;
     box-sizing: border-box;
-    background-color: green;
     border-bottom: black 3px solid;
     width: 100%;
-    height: 580px;
-    background-color: blue;
+    height: 85%;
+    background-color: rgb(176, 176, 224);
 }
 #footer-box {
     display: block;
     box-sizing: border-box;
     margin: auto;
     width: 100%;
-    height: 50px;
-    background-color: red;
+    height: 5%;
+    background-color: rgb(199, 163, 163);
 }
