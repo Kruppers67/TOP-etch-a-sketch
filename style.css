@@ -13,18 +13,21 @@ body {
     margin-top: 15px;
     width: 100%;
     height: 5%;
-    background-color: rgb(147, 191, 147);
+    background-color: rgb(244, 246, 244);
     border-bottom: black 3px solid;
     box-sizing: border-box;
 }
 #background-box {
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin: auto;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
     border-bottom: black 3px solid;
     width: 100%;
     height: 85%;
-    background-color: rgb(176, 176, 224);
+    background: linear-gradient(to bottom, rgb(85, 156, 60), purple)
 }
 #footer-box {
     display: block;
@@ -32,14 +35,33 @@ body {
     margin: auto;
     width: 100%;
     height: 5%;
-    background-color: rgb(199, 163, 163);
+    background-color: rgb(244, 242, 242);
 }
 
 /*GRID STYLING*/
 
 .grid-box {
-    background-color: grey;
-    display: block;
-    width: 100px;
-    height: 100px;
+    background-color: rgb(206, 143, 143);
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 0;
+    box-sizing: border-box;
+}
+
+.grid-boxes {
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+}
+.title {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    color: rgb(25, 49, 57);
 }
